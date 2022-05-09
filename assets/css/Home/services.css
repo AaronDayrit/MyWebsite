@@ -4,3 +4,217 @@
     height: 100vh;
     width: 100%;
 }
+
+
+    /*
+    --------------------------------------------------------
+    About me section
+    --------------------------------------------------------
+    */
+
+    .content-1{
+        padding: 40px;
+        width: 100%;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        /*
+        --------------------------------------------------------
+        Columns styling
+        --------------------------------------------------------
+        */
+        
+        .col1 {
+        width: 400px;
+        height: 600px;
+        }
+        
+        .col-content1 {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        /*
+        --------------------------------------------------------
+        Columns content
+        --------------------------------------------------------
+        */
+        
+        .col-content1 img{
+        height: 500px;
+        width: 350px;
+        box-shadow: 20px 20px 48px 0 rgba(230, 230, 230, 0.3);
+        object-fit: cover;
+        object-position: center;
+        }
+        
+        .content1 .text-container{
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        padding-left: 30px;
+        }
+        
+        .content1 .text-container h2{
+        font-weight:600;
+        color: black;
+        font-family: 'Poppins', helvetica, sans-serif;
+        margin-bottom: 10px;
+        font-size: 42px;
+        text-transform: uppercase;
+        }
+        
+        .content1 .text-container p{
+        margin-top: 2px;
+        line-height: 22px;
+        height: auto;
+        margin-bottom: 15px;
+        font-weight: 400;
+        color: black;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 16px;
+        }
+        
+        .content1 .text-container p + p{
+        margin-bottom: 50px;
+        margin-top: 0;
+        }
+        
+        .lrn-btn{
+        padding: 14px 23px;
+        text-decoration: none;
+        font-weight:400;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        background-color: rgb(250, 52, 52);
+        transition: 0.2s ease-in-out;
+        border-radius: 5px;
+        box-shadow: 20px 20px 48px 0 rgba(230, 230, 230, 0.3);
+        }
+        
+        .lrn-btn:hover{
+        background-color: rgb(202, 37, 37);
+        }
+        
+        
+        
+        
+        
+        
+        /*
+        ------------------------------------------------------------------------------
+        MEADIA QUERIES
+        ---------------------------------------------------------------------------
+        */
+        
+        /*
+        -----------------------------------------------------
+        COLUMN SIZING
+        -----------------------------------------------------
+        */
+        
+        @media screen and (min-width: 320px){
+            .content-1 .container{
+                width: 100%;
+            }
+    
+            .container, .row-container{
+            max-width: 400px;
+            }
+            
+            .col-lg-3{
+            flex: 0 0 100%;
+            }
+            
+            .col-delete{
+            display: none;
+            }
+            
+            .content-1 .text-container{
+            width: 320px;
+            padding: 0;
+            }
+        }
+        
+        @media screen and (min-width: 580px){
+            .content-1 .container{
+                width: 100%;
+            }
+    
+            .container, .row-container{
+            max-width: 650px;
+            }
+            
+            .col-lg-3{
+            flex: 0 0 100%;
+            }
+            
+            .col-delete{
+            display: none;
+            }
+            
+            .content-1 .text-container{
+            width: 370px;
+    
+            }
+        }
+    
+        @media screen and (min-width: 860px) and (max-width: 1024px){
+            .content-1 .container{
+                width: 100%;
+            }
+    
+            .container, .row-container{
+            max-width: 1000px;
+            }
+            
+            .col-lg-3{
+            flex: 0 0 50%;
+            }
+            
+            .col-delete{
+            display: block;
+            }
+            
+            
+            .content-1 .text-container{
+            width: 380px;
+            padding: 20px;
+            }
+        }
+        
+        @media screen and (min-width: 1024px){
+            .content-1 .container{
+                width: 80%;
+            }
+    
+            .container, .row-container{
+            max-width: 1140px;
+            }
+            
+            .col-lg-3{
+            flex: 0 0 50%;
+            }
+            
+            .col-delete{
+            display: block;
+            }
+            
+            .content-1 .text-container{
+            width: auto;
+            }
+            
+            .content-1 .text-container{
+            margin: 20px;
+            padding: 30px;
+            }
+        }
