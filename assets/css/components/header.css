@@ -1,0 +1,30 @@
+    @import "base.css";
+    
+    header{
+        position: absolute;
+        width: 100%;
+        padding: 18px;
+        z-index: 9999;
+    }
+
+    header .container{
+        display: flex;
+        justify-content: right;
+    }
+
+    header h2{
+        display: flex;
+        /* font-family: 'Source Sans Pro', sans-serif;        */
+        font-family: 'Poppins', helvetica, sans-serif;
+        font-size: 17px;
+        transition: 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+    header h2:hover{
+        color: rgb(88, 88, 88);
+    }
+
+    header h2 i{
+        margin-right: 8px;
+    }
