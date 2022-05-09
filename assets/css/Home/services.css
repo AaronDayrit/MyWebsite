@@ -8,20 +8,24 @@
 } */
 
 
-    /*
-    --------------------------------------------------------
-    About me section
-    --------------------------------------------------------
-    */
+        /*
+        --------------------------------------------------------
+        About me section
+        --------------------------------------------------------
+        */
 
-    .content-1{
+        .content1{
+            background-color: black;
+        }
+
+        .content-1{
+        background-color: rgb(7, 7, 7);
         padding: 40px;
         width: 100%;
         color: black;
         display: flex;
         justify-content: center;
         align-items: center;
-     
         }
         
         /*
@@ -29,16 +33,11 @@
         Columns styling
         --------------------------------------------------------
         */
-        
-        .col1 {
-        width: 400px;
-        height: 600px;
-        }
-        
+    
         .col-content1 {
         position: relative;
         width: 100%;
-        height: 600px;
+        height: 800px;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -55,7 +54,7 @@
         .col-content1 img{
         height: 500px;
         width: 350px;
-        box-shadow: 20px 20px 48px 0 rgba(230, 230, 230, 0.3);
+        /* box-shadow: 20px 20px 48px 0 rgba(230, 230, 230, 0.3); */
         object-fit: cover;
         object-position: center;
 
@@ -71,7 +70,7 @@
         
         .content1 .text-container h2{
         font-weight:600;
-        color: black;
+        color: rgb(255, 255, 255);
         font-family: 'Poppins', helvetica, sans-serif;
         font-size: 42px;
         text-transform: uppercase;
@@ -80,26 +79,11 @@
 
         .content1 .text-container h2 span{
             font-weight:600;
-            color: rgb(170, 170, 170);
+            color: rgb(78, 78, 78);
             font-family: 'Poppins', helvetica, sans-serif;
             font-size: 42px;
         }
         
-        .content1 .text-container p{
-        margin-top: 2px;
-        line-height: 22px;
-        height: auto;
-        margin-bottom: 15px;
-        font-weight: 400;
-        color: black;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 16px;
-        }
-        
-        .content1 .text-container p + p{
-        margin-bottom: 50px;
-        margin-top: 0;
-        }
         
         .lrn-btn{
         padding: 14px 23px;
@@ -107,32 +91,22 @@
         font-weight:400;
         color: white;
         font-family: 'Source Sans Pro', sans-serif;
-        background-color: rgb(0, 0, 0);
         transition: 0.2s ease-in-out;
         border-radius: 5px;
-        box-shadow: 20px 20px 48px 0 rgba(230, 230, 230, 0.3);
+        border: solid 2px white;
         }
         
         .lrn-btn:hover{
-        background-color: rgb(0, 0, 0);
+        opacity: 0.7;
         }
-        
-        
-        
-        
-        
+    
         
         /*
         ------------------------------------------------------------------------------
         MEADIA QUERIES
         ---------------------------------------------------------------------------
         */
-        
-        /*
-        -----------------------------------------------------
-        COLUMN SIZING
-        -----------------------------------------------------
-        */
+
         
         @media screen and (min-width: 320px){
             .content-1 .container{
@@ -143,7 +117,7 @@
             max-width: 400px;
             }
             
-            .col-lg-3{
+            .col-lg-2{
             flex: 0 0 100%;
             }
             
@@ -166,7 +140,7 @@
             max-width: 650px;
             }
             
-            .col-lg-3{
+            .col-lg-2{
             flex: 0 0 100%;
             }
             
@@ -189,7 +163,7 @@
             max-width: 1000px;
             }
             
-            .col-lg-3{
+            .col-lg-2{
             flex: 0 0 50%;
             }
             
@@ -213,7 +187,7 @@
             max-width: 1140px;
             }
             
-            .col-lg-3{
+            .col-lg-2{
             flex: 0 0 50%;
             }
             

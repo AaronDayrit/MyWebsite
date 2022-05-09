@@ -1,7 +1,7 @@
 @import "../components/base.css";
 
-.projects{
-    height: 700px;
+.contact-me{
+    height: 580px;
     width: 100%;
-    background-color: green;
+    background-color: grey;
 }
