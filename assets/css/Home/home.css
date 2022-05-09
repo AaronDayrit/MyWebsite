@@ -15,10 +15,10 @@
     /* background: rgb(246,166,255);
     background: linear-gradient(131deg, rgba(246,166,255,1) 18%,
      rgba(124,38,184,1) 74%); */
-     background-color: rgb(245, 245, 230);
+     background-color: rgb(233, 229, 208);
 
-     background: rgb(189,185,130);
-     background: linear-gradient(131deg, rgb(216, 212, 160) 11%, rgba(255,252,212,1) 74%);
+     /* background: rgb(189,185,130);
+     background: linear-gradient(131deg, rgb(216, 212, 160) 11%, rgba(255,252,212,1) 74%); */
     display: flex;
     justify-content: center;
     align-items: center;

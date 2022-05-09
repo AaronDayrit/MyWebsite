@@ -1,0 +1,7 @@
+@import "../components/base.css";
+
+.projects{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
