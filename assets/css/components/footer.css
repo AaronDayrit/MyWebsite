@@ -28,6 +28,7 @@
 
         .links{
             list-style: none;
+            margin-top: 18px;
 
         }
 
@@ -44,7 +45,7 @@
         } 
 
         .links li + li{
-            margin-top: 15px;
+            margin-top: 32px;
         } 
 
     /*
@@ -55,10 +56,11 @@
 
         .social-icons{
             display: flex;
-            width: 200px;
+            width: 250px;
             justify-content: space-between;
             list-style: none;
-            margin-top: 28px;
+            margin-top: 38px;
+            margin-bottom: 16px;
         }
 
         .social-icons li{
@@ -78,7 +80,7 @@
         
         .social-icons li a{
             color: white;
-            font-size: 22px;
+            font-size: 18px;
             margin-top: 2px;
         }
 

@@ -86,6 +86,7 @@
         
         
         .lrn-btn{
+        margin-top: 40px;
         padding: 14px 23px;
         text-decoration: none;
         font-weight:400;
@@ -99,7 +100,8 @@
         .lrn-btn:hover{
         opacity: 0.7;
         }
-    
+
+   
         
         /*
         ------------------------------------------------------------------------------
@@ -108,7 +110,7 @@
         */
 
         
-        @media screen and (min-width: 320px){
+        @media screen and (min-width: 320px) and (max-width: 580px){
             .content-1 .container{
                 width: 100%;
             }
@@ -125,13 +127,10 @@
             display: none;
             }
             
-            .content-1 .text-container{
-            width: 320px;
-            padding: 0;
-            }
+
         }
         
-        @media screen and (min-width: 580px){
+        @media screen and (min-width: 580px) and (max-width: 870px){
             .content-1 .container{
                 width: 100%;
             }
@@ -148,15 +147,12 @@
             display: none;
             }
             
-            .content-1 .text-container{
-            width: 370px;
     
-            }
         }
     
-        @media screen and (min-width: 860px) and (max-width: 1024px){
-            .content-1 .container{
-                width: 100%;
+        @media screen and (min-width: 870px) and (max-width: 1024px){
+            .content1 .container{
+                width: 93%;
             }
     
             .container, .row-container{
@@ -168,18 +164,14 @@
             }
             
             .col-delete{
-            display: block;
+            display: grid;
             }
             
-            
-            .content-1 .text-container{
-            width: 380px;
-            padding: 20px;
-            }
+
         }
         
         @media screen and (min-width: 1024px){
-            .content-1 .container{
+            .content1 .container{
                 width: 80%;
             }
     
@@ -192,15 +184,8 @@
             }
             
             .col-delete{
-            display: block;
+            display: grid;
             }
             
-            .content-1 .text-container{
-            width: auto;
-            }
-            
-            .content-1 .text-container{
-            margin: 20px;
-            padding: 30px;
-            }
+
         }

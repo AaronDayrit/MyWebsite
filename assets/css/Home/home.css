@@ -12,13 +12,7 @@
 .landing-screen{
     height: 100vh;
     width: 100%;
-    /* background: rgb(246,166,255);
-    background: linear-gradient(131deg, rgba(246,166,255,1) 18%,
-     rgba(124,38,184,1) 74%); */
-     background-color: rgb(233, 229, 208);
-
-     /* background: rgb(189,185,130);
-     background: linear-gradient(131deg, rgb(216, 212, 160) 11%, rgba(255,252,212,1) 74%); */
+    background-color: rgb(233, 229, 208);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +74,7 @@
     /* line-height: 80px; */
     line-height: 160px;
     color: black;
+    line-height: 0;
 }
 
 .landing-screen .text-container h2:nth-child(1){
@@ -92,6 +87,161 @@
 
 .landing-screen .text-container h2:nth-child(3){
     font-size: 220px;
-    line-height: 220px;
+
 }
 
+
+
+       
+        /*
+        ------------------------------------------------------------------------------
+        MEADIA QUERIES
+        ---------------------------------------------------------------------------
+        */
+        
+        @media screen and (min-width:450px) and (max-width: 570px){
+            .landing-screen .text-container h2:nth-child(1){
+                font-size: 30px;
+              
+            }
+            .landing-screen .text-container h2:nth-child(2){
+                font-size: 80px;
+                margin-top: 50px;
+            }
+            
+            .landing-screen .text-container h2:nth-child(3){
+                font-size: 120px;
+                margin-top: 85px;
+            }
+
+            .landing-screen p {
+                margin-left: 80px;
+                font-size: 16px;
+                width: 350px;
+            }
+        
+        }
+
+
+
+        @media screen and (min-width:570px) and (max-width: 680px){
+            .landing-screen .text-container h2:nth-child(1){
+                font-size: 50px;
+              
+            }
+            .landing-screen .text-container h2:nth-child(1){
+                color: black;
+            }
+
+
+            .landing-screen .text-container h2:nth-child(2){
+                font-size: 100px;
+                margin-top: 75px;
+            }
+            
+            .landing-screen .text-container h2:nth-child(3){
+                font-size: 140px;
+                margin-top: 95px;
+            }
+            
+            .landing-screen p {
+                width: 390px;
+                font-size: 17px;
+                margin-left: 160px;
+            }
+        }
+
+        
+        @media screen and (min-width:670px) and (max-width: 890px){
+            .landing-screen .text-container h2:nth-child(1){
+                font-size: 70px;
+              
+            }
+            .landing-screen .text-container h2:nth-child(2){
+                font-size: 120px;
+                margin-top: 95px;
+            }
+            
+            .landing-screen .text-container h2:nth-child(3){
+                font-size: 160px;
+                margin-top: 120px;
+
+            }
+            .landing-screen p {
+                width: 410px;
+                font-size: 17.8px;
+                margin-left: 210px;
+            }
+
+        }
+        
+        @media screen and (min-width: 890px) and (max-width: 1100px){
+
+            .landing-screen .text-container h2:nth-child(1){
+                font-size: 90px;
+              
+            }
+            .landing-screen .text-container h2:nth-child(2){
+                font-size: 140px;
+                margin-top: 105px;
+            }
+            
+            .landing-screen .text-container h2:nth-child(3){
+                font-size: 180px;
+                margin-top: 135px;
+            }
+                
+            .landing-screen p {
+                width: 430px;
+                font-size: 19px;
+                margin-left: 230px;
+            }
+    
+        }
+    
+        @media screen and (min-width: 1100px) and (max-width: 1240px){
+            .landing-screen .text-container h2:nth-child(1){
+                font-size: 110px;
+              
+            }
+            .landing-screen .text-container h2:nth-child(2){
+                font-size: 160px;
+                margin-top: 125px;
+            }
+            
+            .landing-screen .text-container h2:nth-child(3){
+                font-size: 200px;
+                margin-top: 150px;
+            }
+            
+            .landing-screen p {
+                width: 430px;
+                font-size: 19.5px;
+                margin-left: 250px;
+            }
+
+        }
+        
+        @media screen and (min-width: 1240px){
+
+            .landing-screen .text-container h2:nth-child(1){
+                font-size: 130px;
+              
+            }
+            .landing-screen .text-container h2:nth-child(2){
+                font-size: 180px;
+                margin-top: 150px;
+            }
+            
+            .landing-screen .text-container h2:nth-child(3){
+                font-size: 220px;
+                margin-top: 170px;
+            }
+            
+            .landing-screen p {
+                width: 450px;
+                font-size: 20px;
+                margin-left: 250px;
+            }
+
+        }
