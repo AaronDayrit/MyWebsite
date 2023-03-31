@@ -10,5 +10,5 @@
 </p>
 
 <p>
-	To accomplish this, the project likely involved extensive research into high-fashion trends and abstract design principles, as well as experimentation with different HTML and CSS techniques to create the desired effects. The use of abstract design elements such as unique shapes, textures, and colors would have required a strong understanding of HTML and CSS, as well as a creative approach to web design.
+	To accomplish this, the project involved extensive research into high-fashion trends and abstract design principles, as well as experimentation with different HTML and CSS techniques to create the desired effects. The use of abstract design elements such as unique shapes, textures, and colors would have required a strong understanding of HTML and CSS, as well as a creative approach to web design.
 </p>
